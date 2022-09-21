@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *rev_string - function that reverses a string.
+ *rev_string - fuction that reverses a string.
  *@s: value to be evaluate.
  *Return: not.
  */
