@@ -3,7 +3,7 @@
 
 /**
  *main - main block to be executed
- *Desc - Computes & prints
+ *Desc - computes & prints
  *Return: 0
  */
 
@@ -20,6 +20,6 @@ int main(void)
 		}
 		c++;
 	}
-	printf('%i\n", sum);
+	printf("%i\n", sum);
 	return (0);
 }
