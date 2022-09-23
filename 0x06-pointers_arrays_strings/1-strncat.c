@@ -3,17 +3,17 @@
 /**
  * _strncat - concatenates two strings
  *
- * @src: The source of strings
- * @dest: The destination of the string
- * @n: The length of int
+ *@src: The source of strings
+ *@dest: The destination of the string
+ *@n: The length of int
  *
- * Return: pointer to the resulting string dest
+ * Return: pointer to the result string dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
-	for (j = 0; src[j] != '\0'; i++)
+	for (i = 0; dest[i] != '\0'; i++)
 	{
 		continue;
 	}
@@ -21,6 +21,6 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		dest[i + j] = src[j];
 	}
-	dest[i +j] = '\0';
+	dest[i + j] = '\0';
 	return (dest);
 }
