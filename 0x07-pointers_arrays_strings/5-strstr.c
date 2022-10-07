@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _strstr-locates a substring
- * @haystack:string to check occurence of needle
- * @needle:string to be checked.
- * Return:Returns a pointer to the beginning of the located
+ *_strstr-locates a substring
+ *@haystack:string to check occurence of needle
+ *@needle:string to be checked.
+ *Return:Returns a pointer to the beginning of the located
  * substring, or NULL if the substring is not found.
  */
 
