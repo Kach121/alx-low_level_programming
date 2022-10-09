@@ -55,7 +55,7 @@ char *big_multiply(char *s1, char *s2)
 		a = s1[l1] - '0';
 		c = 0;
 
-		for (12 = _strlen(s2) - 1; l2 >= 0; l2--)
+		for (l2 = _strlen(s2) - 1; l2 >= 0; l2--)
 		{
 			if (!_isdigit(s2[l2]))
 			{
