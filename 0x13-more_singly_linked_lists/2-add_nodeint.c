@@ -7,7 +7,7 @@
  *
  * Return: returns address to new element created
  */
-listint_t *add_nodeint(listint_t **, const int n)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new;
 	/*allocate memory anch check if null*/
