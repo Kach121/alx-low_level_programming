@@ -1,6 +1,6 @@
 #include "list.h"
 /**
- * add_nodeint - functio used to add a new node at begining of the list
+ * add_nodeint - function used to add a new node at begining of the list
  *
  * @head: pointer to pointer of listint_t
  * @n: constant parameter
