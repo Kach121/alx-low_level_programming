@@ -2,7 +2,7 @@
 /**
  * insert_nodeint_at_index - function
  *
- * Description: insert a new node at a given position.
+ * Description: inserts a new node at a given position.
  *
  * @head: pointer to pointer of type listint_t
  * @idx: unsigned int, index where new node will be added
@@ -26,7 +26,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	{
 		new_node->next = temp;
 		*head = new_node;
-
+		return (new_node);
 	}
 	for (; count < (idx - 1); count++)
 	{
