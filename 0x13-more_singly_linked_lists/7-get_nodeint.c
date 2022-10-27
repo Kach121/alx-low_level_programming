@@ -2,9 +2,9 @@
 /**
  * get_nodeint_at_index - function
  *
- * @Description: gets the nth node of a listint_t linked list.
+ * Description: gets the nth node of a listint_t linked list.
  *
- * @head: pointer of type of listint_t
+ * @head: pointer of type listint_t
  * @index: unsigned int, the index of node
  *
  * Return: returns the nth item or NULL
