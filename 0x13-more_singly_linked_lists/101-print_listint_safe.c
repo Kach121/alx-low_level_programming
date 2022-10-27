@@ -4,12 +4,12 @@
 /**
  * print_listint_safe - print a linked list only one time
  * @head: head of LL
- *Return: counter of nodes & prints an error if the linked list is a circle
+ * Return: counter of nodes & prints an error if the linked list is a circle
  */
 size_t print_listint_safe(const listint_t *head)
 {
 	const listint_t *slow, *fast, *marker;
-	unsigned int counter =, flag = 0;
+	unsigned int counter = 0, flag = 0;
 
 	if (head == NULL)
 		return (0);
@@ -17,7 +17,7 @@ size_t print_listint_safe(const listint_t *head)
 	fast = head->next;
 	while (head != NULL)
 	{
-		printf(:[%p] %d\n", (void *)head, head->n);
+		printf("[%p] %d\n", (void *)head, head->n);
 		head = head->next;
 		counter++;
 
@@ -25,8 +25,8 @@ size_t print_listint_safe(const listint_t *head)
 		{
 			if (fast == slow)
 			{
-			flag = 1;
-			slow = marker;
+				flag = 1;
+				slow = marker;
 		}
 		fast = fast->next->next;
 	}
@@ -39,4 +39,3 @@ size_t print_listint_safe(const listint_t *head)
 	}
 	return (counter);
 }
-
