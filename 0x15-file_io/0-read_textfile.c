@@ -2,7 +2,7 @@
 #include <stddef.h>
 
 /**
- * read_textfile - reads a text file and prints it to standard output
+ * read_textfile - reads a text file and prints it to the standard output
  * @filename: name of the file
  * @letters: number of letters to be printed
  *
@@ -13,7 +13,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	int file, n_read, wrote;
 	char *buffer;
 
-	buffer = malloc(sizeof(*buffe) * (letters + 1));
+	buffer = malloc(sizeof(*buffer) * (letters + 1));
 	if (filename == NULL || buffer == NULL)
 	{
 		free(buffer);
