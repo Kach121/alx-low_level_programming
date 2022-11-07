@@ -21,7 +21,7 @@ int _strlen(char *str)
  * @filename: name of the file
  * @text_content: content of the file to be created
  *
- * Return: 1 on success, -1 0therwise
+ * Return: 1 on success, -1 otherwise
  */
 int create_file(const char *filename, char *text_content)
 {
